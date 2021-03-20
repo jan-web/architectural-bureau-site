@@ -131,6 +131,9 @@
 }
 
 @media (max-width: 676px) {
+  .menu_link {
+    font-size: 14px;
+}
   .top__card {
     padding-left: 42px;
   }
@@ -193,6 +196,7 @@
   .opinions__slide-descr {
     font-size: 14px;
     width: 100%;
+    padding-right: 90px;
   }
 
   .opinions__slide-images {
@@ -200,12 +204,27 @@
   }
 
   .order__title {
-    font-size: 30px;
+    font-size: 28px;
+    // padding-left: 24px;
+  }
+  .order__descr {
+    line-height: 21px;
+    width: 287px;
+    // padding-left: 24px;
+}
+  .order__input_name,
+ .order__input_tel {
+  width: 290px;
+ }
+  .order__form {
+    padding-left: 24px;
   }
 
-  .order__form {
-    padding-left: 16px;
-  }
+  .order__btn {
+    width: 256px;
+    height: 74px;
+    font-size: 14px;
+}
 
   .footer__address {
     font-size: 14px;
