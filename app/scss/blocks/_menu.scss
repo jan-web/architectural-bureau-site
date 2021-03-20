@@ -1,0 +1,27 @@
+.mobile_menu {
+	display: none
+}
+
+.menu {
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+	list-style-type: none;
+
+	&_link {
+		font-size: 15px;
+		color: #533738;
+		text-decoration: none;
+
+		&:hover {
+			color: #CC8B86;
+		}
+
+	}
+
+	&_item {
+		&:last-child {
+			padding-left: 34px;
+		}
+	}
+}

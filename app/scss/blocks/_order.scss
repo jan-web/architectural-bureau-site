@@ -1,0 +1,102 @@
+.order {
+  background: #8D7370;
+
+  &__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  &__form {
+    width: 550px;
+    height: 581px;
+  }
+
+  &__iframe {
+    width: 550px;
+    height: 581px;
+    border: none;
+  }
+
+  &__title {
+    margin-top: 50px;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+
+  &__descr {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    opacity: 0.6;
+    width: 500px;
+    margin-top: 24px;
+    margin-bottom: 44px;
+  }
+
+  &__input_name,
+  &__input_tel {
+    width: 500px;
+    height: 34px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    transform: rotate(0.11deg);
+    padding-bottom: 4px;
+    color: #FFFFFF;
+    outline: none;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  &__input_name::-webkit-input-placeholder,
+  &__input_tel::-webkit-input-placeholder {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #F6EDE9;
+  }
+
+  &__input_nam::-moz-placeholder,
+  &__input_tel::-moz-placeholder {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #F6EDE9;
+  }
+
+  &__input_tel {
+    margin-top: 35px;
+    margin-bottom: 31px;
+  }
+
+  &__btn {
+    width: 309px;
+    height: 74px;
+    padding: 25px 65px;
+    background: #CC8B86;
+    color: #533738;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    border: none;
+
+    &:hover {
+      box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.4);
+      transform: translateY(-3px);
+    }
+
+  }
+}

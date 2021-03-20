@@ -1,0 +1,61 @@
+.top {
+  padding-top: 38px;
+  background: url("../images/top-bg.png") center center/cover no-repeat;
+  min-height: 715px;
+
+  &__header {
+    display: grid;
+    grid-template-columns: 90px 1fr;
+    align-items: center;
+    margin-bottom: 152px;
+
+    & nav {
+      padding-left: 90px;
+    }
+  }
+
+  &__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0px;
+  }
+
+  &__card {
+    padding-left: 82px;
+
+  }
+
+  &__title {
+    width: 534px;
+    font-size: 50px;
+    font-weight: normal;
+    line-height: 62px;
+    margin-bottom: 24px;
+  }
+
+  &__descr {
+    font-size: 18px;
+    line-height: 30px;
+    width: 442px;
+    margin-bottom: 46px;
+  }
+
+  &__order {
+    width: 309px;
+    height: 74px;
+    padding: 25px 65px;
+    background-color: #CC8B86;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #533738;
+    text-decoration: none;
+
+    &:hover {
+      box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.4);
+      transform: translateY(-3px);
+    }
+  }
+
+}
